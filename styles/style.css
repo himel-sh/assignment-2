@@ -66,22 +66,3 @@ main {
 }
 
 /* banner styles */
-.banner {
-    margin-top: 120px;
-    justify-content: space-between;
-    align-items: end;
-}
-
-.banner img {
-    width: 50%;
-}
-
-.banner-title {
-    font-size: 2rem;
-    font-weight: 700;
-    width: 50%;
-}
-
-.banner-title p {
-    margin-bottom: 0;
-}
