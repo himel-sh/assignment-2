@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.title-noto {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-description {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* shared styles */
+.flex {
+    display: flex;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.orange {
+    color: #E95A08;
+}
+
+.black {
+    color: black;
+}
+
+.description {
+    font-size: 1.30rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* nav tasks */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    width: 420px;
+    height: 60px;
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+/* banner styles */
+.banner {
+    margin-top: 120px;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.banner img {
+    width: 50%;
+}
+
+.banner-title {
+    font-size: 2rem;
+    font-weight: 700;
+    width: 50%;
+}
+
+.banner-title p {
+    margin-bottom: 0;
+}
