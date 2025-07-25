@@ -24,6 +24,11 @@
 }
 
 main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+footer {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -140,6 +145,7 @@ main {
     margin-top: 400px;
     align-items: center;
     gap: 50px;
+    margin-bottom: -190px;
 }
 
 .lover-image {
@@ -178,4 +184,80 @@ main {
     left: 460px;
     z-index: 1;
 
+}
+
+/* deals */
+
+.deals {
+    margin: 120px auto;
+}
+
+.promo-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+    height: 420px;
+}
+
+.promo-card {
+    position: relative;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+    padding: 1rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Grid placement */
+.bloom {
+    grid-column: 1;
+    grid-row: 1;
+    background-image: url('../assets/deal-bloom.png');
+}
+
+.ana {
+    grid-column: 1;
+    grid-row: 2;
+    background-image: url('../assets/deal-ana.png');
+}
+
+.zabo {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    background-image: url('../assets/deal-zabo.png');
+}
+
+/* Text styling */
+.promo-text {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.promo-text-3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.promo-btn {
+    background: none;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center;
 }
