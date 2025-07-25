@@ -105,8 +105,7 @@ main {
 
 .plants {
     height: 1185px;
-
-
+    margin-bottom: 210px;
 
 }
 
@@ -132,4 +131,51 @@ main {
 
 .card img {
     width: 100%;
+}
+
+/* lover */
+.lover {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 400px;
+    align-items: center;
+    gap: 50px;
+}
+
+.lover-image {
+    flex: 1;
+    width: 100%;
+}
+
+.lover-content {
+    flex: 1;
+    width: 100%;
+    margin-bottom: 300px;
+
+}
+
+.lover-title {
+    font-size: 3rem;
+    font-weight: 700
+}
+
+.image-stack .top-img {
+    position: relative;
+    width: 300px;
+    display: inline-block;
+}
+
+.base-img {
+    display: block;
+    width: 95%;
+    height: auto;
+}
+
+
+.top-img {
+    position: absolute;
+    top: -880px;
+    left: 500px;
+    z-index: 1;
+
 }
